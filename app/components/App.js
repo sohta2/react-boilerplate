@@ -6,7 +6,7 @@ import {RouteHandler} from 'react-router';
 export default React.createClass({
   displayName: 'App',
   render() {
-    let title = `Artist Top Tracks (${ this.props.path })`;
+    let title = `${ this.props.path }`;
     return (
       <html lang="ja">
       <head>
