@@ -23,7 +23,7 @@ gulp.task('browserSync', function() {
   browserSync(null, {
     proxy: "http://localhost:5000",
     files: ["dist/**/*.*"],
-    port: 8080,
+    port: 3000,
     notify: true
   });
 });
