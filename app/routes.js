@@ -2,9 +2,9 @@
 
 import React    from 'react';
 import App      from './components/App';
-import Top      from './components/Top';
-import Artist   from './components/Artist';
-import Country  from './components/Country';
+import One      from './components/One';
+import Two      from './components/Two';
+import Three    from './components/Three';
 import {
   Route,
   DefaultRoute,
@@ -12,8 +12,8 @@ import {
 
 export default (
     <Route name="top" handler={App} path="/">
-      <Route name="artist"  handler={Artist} />
-      <Route name="country" handler={Country} />
-      <DefaultRoute handler={Top} />
+      <DefaultRoute handler={One} />
+      <Route name="two"  handler={Two} />
+      <Route name="three"  handler={Three} />
     </Route>
 )

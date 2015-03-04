@@ -4,8 +4,8 @@
   "description": "my React.js boilerplate",
   "scripts": {
     "watch": "watchify app/browser.js -o dist/bundle.js -v",
-    "client": "gulp default",
-    "start": "babel-node app/server",
+    "build": "browserify app/browser.js > dist/bundle.js",
+    "start": "gulp default && babel-node app/server",
     "test": "jest"
   },
   "repository": {
@@ -27,19 +27,18 @@
     "browser-sync": "^2.2.1",
     "browserify": "^9.0.3",
     "gulp": "^3.8.11",
-    "gulp-nodemon": "^1.0.5",
     "jest-cli": "^0.4.0",
-    "node-babel": "^0.1.1",
-    "nodemon": "^1.3.7",
     "vinyl-source-stream": "^1.0.0",
     "watchify": "^2.2.1"
   },
   "dependencies": {
     "babel": "^4.5.5",
     "express": "^4.11.1",
+    "flux": "^2.0.1",
     "object-assign": "^2.0.0",
     "react": "^0.12.0",
-    "react-router": "^0.12.4"
+    "react-router": "^0.12.4",
+    "superagent": "^0.21.0"
   },
   "browserify": {
     "transform": [

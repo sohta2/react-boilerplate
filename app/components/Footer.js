@@ -9,8 +9,7 @@ export default React.createClass({
     return (
       <footer>
         <div className="well well-lg">
-          <Link to="top">TOP</Link>&nbsp;|&nbsp;
-          <a href="https://github.com/koba04/react-boilerplate">github</a>
+          <Link to="top">TOP</Link>
         </div>
       </footer>
     );
