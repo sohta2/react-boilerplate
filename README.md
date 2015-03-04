@@ -14,6 +14,7 @@ ES6 style
 * express
 * browserify
 * babel
+* gulp
 
 ## setup
 ```
