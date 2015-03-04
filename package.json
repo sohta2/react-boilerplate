@@ -3,24 +3,24 @@
   "version": "0.4.0",
   "description": "my React.js boilerplate",
   "scripts": {
-    "watch": "watchify app/browser.js -o dist/bundle.js -v",
+    "build": "gulp browserify",
     "client": "gulp default",
     "start": "babel-node app/server",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/koba04/react-boilerplate"
+    "url": "https://github.com/sohta2/react-boilerplate"
   },
   "keywords": [
     "react"
   ],
-  "author": "koba04",
+  "author": "sohta2",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koba04/react-boilerplate/issues"
+    "url": "https://github.com/sohta2/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/koba04/react-boilerplate",
+  "homepage": "https://github.com/sohta2/react-boilerplate",
   "devDependencies": {
     "babel-jest": "^4.0.0",
     "babelify": "^5.0.3",

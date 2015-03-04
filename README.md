@@ -1,11 +1,11 @@
-# My React Boilerplate  [![Build Status](https://travis-ci.org/koba04/react-boilerplate.svg?branch=master)](https://travis-ci.org/koba04/react-boilerplate)
+# My React Boilerplate  [![Build Status](https://travis-ci.org/sohta2/react-boilerplate.svg?branch=master)](https://travis-ci.org/sohta2/react-boilerplate)
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/koba04/react-boilerplate)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/sohta2/react-boilerplate)
 
 http://react-serverside-rendering.herokuapp.com/
 
-sever side rendering & Flux
+server side rendering (Removed Flux)
 
 ES6 style
 
@@ -20,14 +20,14 @@ ES6 style
 npm install
 ```
 
-## watch and autobuild
-```
-npm run watch
-```
-
 ## run server
 ```
 npm start
+```
+
+## run client
+```
+npm run-script client
 ```
 
 ## manual build
